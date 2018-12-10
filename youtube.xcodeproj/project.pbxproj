@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F277A64721BE06C400A0D7F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F277A64621BE06C400A0D7F7 /* AppDelegate.swift */; };
-		F277A64921BE06C400A0D7F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F277A64821BE06C400A0D7F7 /* ViewController.swift */; };
+		F277A64921BE06C400A0D7F7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F277A64821BE06C400A0D7F7 /* HomeViewController.swift */; };
 		F277A64C21BE06C400A0D7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F277A64A21BE06C400A0D7F7 /* Main.storyboard */; };
 		F277A64E21BE06C600A0D7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F277A64D21BE06C600A0D7F7 /* Assets.xcassets */; };
 		F277A65121BE06C600A0D7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F277A64F21BE06C600A0D7F7 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		F277A64321BE06C400A0D7F7 /* youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F277A64621BE06C400A0D7F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F277A64821BE06C400A0D7F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F277A64821BE06C400A0D7F7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F277A64B21BE06C400A0D7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F277A64D21BE06C600A0D7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F277A65021BE06C600A0D7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				F277A64621BE06C400A0D7F7 /* AppDelegate.swift */,
-				F277A64821BE06C400A0D7F7 /* ViewController.swift */,
+				F277A64821BE06C400A0D7F7 /* HomeViewController.swift */,
 				F277A64A21BE06C400A0D7F7 /* Main.storyboard */,
 				F277A64D21BE06C600A0D7F7 /* Assets.xcassets */,
 				F277A64F21BE06C600A0D7F7 /* LaunchScreen.storyboard */,
@@ -100,7 +100,7 @@
 				};
 			};
 			buildConfigurationList = F277A63E21BE06C400A0D7F7 /* Build configuration list for PBXProject "youtube" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F277A64921BE06C400A0D7F7 /* ViewController.swift in Sources */,
+				F277A64921BE06C400A0D7F7 /* HomeViewController.swift in Sources */,
 				F277A64721BE06C400A0D7F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
